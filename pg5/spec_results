@@ -1,0 +1,15 @@
+
+Passgen 5 Specs
+- should exist
+- should accept an init param
+- should return a password with .gen_passwd method with length of the second argument
+- should return an array of size first argument with the .gen_passwd_list method
+
+Passgen 5 command line executable
+- should have a shell executable called 'pwd'
+- should be executable
+- should take two numbers as params and output <1st argument> passwords of length <2nd argument>
+
+Finished in 0.006279 seconds
+
+7 examples, 0 failures

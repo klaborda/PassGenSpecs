@@ -1,0 +1,4 @@
+.chars() was being problematic for me, so I renamed to .setChars()
+
+Also, I couldn't use attr_accessor and get it to return a string via the index of the availChars array.  It would return 98 instead of 'b'.  
+98 is the ASCII code for the letter 'b', so it must have been cast somewhere.  I modified the test to cast it back to a character.

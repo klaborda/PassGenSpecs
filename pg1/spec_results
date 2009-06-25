@@ -1,0 +1,9 @@
+
+Passgen 1 specs
+- should exist
+- should generate a password x characters long with the createPass function
+- should generate x passwords
+
+Finished in 0.001541 seconds
+
+3 examples, 0 failures

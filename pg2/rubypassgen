@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require File.expand_path(File.dirname(__FILE__) + '/passgen')
+if ARGV.length == 0
+puts "\n"
+elsif ARGV.length == 2
+	number = ARGV[0].to_i
+	length = ARGV[1].to_i
+	p = Passgen.new
+	puts p.generate_series(number, length).to_a.join("\n")
+elsif ARGV.length == 1
+	number = ARGV[0].to_i
+	p = Passgen.new
+	puts p.generate_series(number, 0).to_a.join("\n")
+end

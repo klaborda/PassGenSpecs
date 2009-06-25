@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+require File.expand_path(File.dirname(__FILE__) + '/passgen')
+if ARGV.length == 0
+puts <<DOC 
+	Usage: rubypassgen <number> <length>
+		Generate <number> passwords of <length> characters
+DOC
+elsif ARGV.length == 2
+	number = ARGV[0].to_i
+	length = ARGV[1].to_i
+	puts Passgen.new(number, length).to_a.join(" ")
+else
+puts <<DOC 
+	ERR: Incorrect number of arguments
+
+	Usage: rubypassgen <number> <length>
+		Generate <number> passwords of <length> characters
+DOC
+end

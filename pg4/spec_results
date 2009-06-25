@@ -1,0 +1,11 @@
+
+Passgen 4 Specs
+- should set a length variable
+- should set the numberOfPasswords variable
+- should create a random string of text
+- should create more than one password
+- should set a character set
+
+Finished in 0.002056 seconds
+
+5 examples, 0 failures

@@ -1,0 +1,16 @@
+
+Passgen 2 Specs
+- should exist
+- should return an alphanumeric password with the generate method
+- should accept a param for the generate method that determines the length of the password
+- should be random enough
+- should generate an array of passes with generate_series and params for number and length
+
+the rubypassgen executable
+- should exist and be executable
+- should take two args, but fail gracefully
+- should output the right number of correctly lengthed passwords, newline delimited
+
+Finished in 0.015383 seconds
+
+8 examples, 0 failures
