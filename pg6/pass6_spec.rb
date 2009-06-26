@@ -24,11 +24,12 @@ describe "Passgen 6 Spec" do
 	end
 
 	it 'should create a single password array of length "n" based on user input' do
-	@f.get_length_test.should == @f.one_pw_test
+	  @f.get_length_test.should == @f.one_pw_test
 	end
 end
 
-	describe "rubypassgen command line executable" do
+describe "rubypassgen command line executable" do
+
   before(:all) do
    @exe = File.expand_path(File.dirname(__FILE__) + '/rubypassgen')
   end
