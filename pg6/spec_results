@@ -1,0 +1,14 @@
+
+Passgen 6 Spec
+- should exist
+- should create an array with all possible password characters
+- should create an array of passwords of length "n" based on user input
+- should create a single password array of length "n" based on user input
+
+rubypassgen command line executable
+- should have a shell executable called 'rubypassgen'
+- should be executable
+
+Finished in 0.002191 seconds
+
+6 examples, 0 failures
